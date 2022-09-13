@@ -1,0 +1,102 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background: url("amolex.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.user-img{
+    display: block;
+    border-radius: 200px ;
+    width: 140px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+   
+    
+    
+    
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 58vh;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px ;
+    text-align: center;
+    
+    
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    color: #ffb22b;
+    font-size: 22px;
+    margin-top: 25px;
+    font-family:"Lucida Console", "Courier New",  monospace;
+ 
+}
+.content h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:"Lucida Console", "Courier New",  monospace;
+    color: white;
+}
+.content p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: -5px;
+    font-family:"Times New Roman", Times,  serif;
+    color: white;
+}
+.content h3{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family:"Lucida Console", "Courier New",  monospace;
+    color: white;
+}
+div.social i {
+    padding: 0 4px;
+    font-size: 30px;
+    color: rgba(255,255,255,0.6);
+    transition: 0.4s;
+    
+}
+div.social i :hover {
+    color: #ffbd15;
+
+    
+}
+button{
+    background-color:#ff9d2b;
+    color: #fff;
+    border:none; 
+    border-radius:7px; 
+    width: 110px;
+    height: 4.5vh;
+    margin-top: 25px;
+    margin-left: 8px;
+   
+  }
+
+  
+button:hover {
+      background-color:#131313;
+      transition: 0.7s;
+    
+  }
