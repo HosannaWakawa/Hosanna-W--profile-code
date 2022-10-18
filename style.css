@@ -44,7 +44,7 @@ body{
     display: flex;
     justify-content: center;
     color: #ffb22b;
-    font-size: 16px;
+    font-size: 17px;
     margin-top: 25px;
     font-family:"Lucida Console", "Courier New",  monospace;
  
@@ -53,7 +53,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: -8px;
-    font-size: 10px;
+    font-size: 11px;
     font-family:"Lucida Console", "Courier New",  monospace;
     color: white;
 }
