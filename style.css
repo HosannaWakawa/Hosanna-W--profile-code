@@ -1,0 +1,111 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background: url("amolex.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.user-img{
+    display: block;
+    border-radius:640px 80px 700px 490px;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    margin-top: 8vh;
+    padding: 5px;
+    border-padding: 10px;
+   
+    
+    
+    
+}
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 60vh;
+    background-color: rgba(0,0,0,0.6);
+    border-radius:  40px ;
+    text-align: center;
+    
+    
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    color: #ffb22b;
+    font-size: 19px;
+    margin-top: 25px;
+    font-family:"Lucida Console", "Courier New",  monospace;
+ 
+}
+.content h2{
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    font-size: 12px;
+    font-family:"Lucida Console", "Courier New",  monospace;
+    color: white;
+}
+.content p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 6px;
+    margin-bottom: -5px;
+    margin-top:-9;
+    font-family:"Times New Roman", Times,  serif;
+    color: white;
+}
+.content h3{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-family:"Lucida Console", "Courier New",  monospace;
+    color: white;
+}
+div.social i {
+    padding: 0 4px;
+    font-size: 30px;
+    color: rgba(225,225,225,0.6);
+    margin-bottom:2vh;
+    
+}
+div.social i :hover {
+    background-color:#ffb22b;
+    transition: 0.7s;
+
+    
+}
+button{
+    background-color:#8a8a8a;
+    color: rgba(0,0,0,0.6);
+    border-color:rgba(0,0,0,0.6);
+    border:-5px  ;
+    border-radius:7px;
+    width: 110px;
+    height: 4.5vh;
+    margin-top: 2px;
+    margin-left: 8px;
+    font-size: 11px;
+    font-family: "Times New Roman", Times,  serif;
+   
+  }
+
+  
+button:hover {
+      background-color:#ffb22b;
+      transition: 0.7s;
+    
+  }
