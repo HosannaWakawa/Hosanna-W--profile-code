@@ -63,7 +63,8 @@ body{
     margin-top: 3%;
     margin-bottom: 2%;
     font-weight: bold;
-} button{
+}
+button{
     background: #ff9d00;
     border-radius: 5px;
     border: none;
@@ -78,7 +79,7 @@ body{
 }
 
 
-.social-media a, .social-media a:visited{
+.social-media a,.social-media a:visited{
     color:rgba(225,225,225,0.6);
     font-size: 30px;
     margin:1%;
