@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigerian Army University Biu</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images(1).jpeg">
+        <h1 onclick="register()" id="register-btn"> Register</h1>
+        <h2 onclick="login()">Login</h2>
+        <h1 id="homenav" onclick="home()">home</h1>
+    </header>
+    <div id="home">
+    <p id="fcom"> Faculty&nbsp;of&nbsp;Computing<br>
+    </p>
+    <p id="p1">the below students are registered, kindly click the register  above to proceed your registration before the deadline </p>
+    <marquee id="p2">Successfully Registered, You can now login for course registration</marquee>
+    <table id="table">
+        <tr>
+            <th>S/N</th>
+          <th>Name</th>            
+          <th>Level</th>
+          <th> Dep </th>
+          <th> Sex </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Hosanna Isa</td>            
+            <td>200</td>
+            <td>CSC</td>
+            <td>M</td>
+        </tr>
+        <tr>
+             <td>2</td>
+            <td>Amina Adamu</td>            
+            <td>200</td>
+            <td>IFT</td>
+            <td>F</td>
+        </tr>
+        <tr>
+             <td>3</td>
+            <td>Sarah Paul</td>            
+            <td>200</td>
+            <td>SEN</td>
+            <td>F</td>
+        </tr>
+        <tr>
+             <td>4</td>
+            <td>Kayode Oladipo</td>            
+            <td>200</td>
+            <td>CYB</td>
+            <td>M</td>
+        </tr>
+        <tr>
+             <td>5</td>
+            <td>Favour Chinedu</td>            
+            <td>200</td>
+            <td>IFS</td>
+            <td>F</td>
+        </tr>
+        <tr>
+             <td>6</td>
+            <td>Peter Paul</td>            
+            <td>200</td>
+            <td>IFT</td>
+            <td>M</td>
+        </tr>
+        <tr>
+             <td>7</td>
+            <td>Adeola Akin</td>            
+            <td>200</td>
+            <td>SEN</td>
+            <td>F</td>
+        </tr>
+        <tr>
+             <td>8</td>
+            <td>Musa Ishaya</td>            
+            <td>200</td>
+            <td>CYB</td>
+            <td>M</td>
+        </tr>
+        <tr>
+             <td>9</td>
+            <td>Luwani Musa</td>            
+            <td>200</td>
+            <td>CSC</td>
+            <td>M</td>
+        </tr>
+        <tr id="row10">
+            <td>10</td>
+            <td id="namecell"></td>            
+            <td id="leveltable"></td>
+            <td id="coursetable"></td>
+            <td id="gendertable"></td>
+        </tr>
+    </table>
+    </div>
+    
+    <div id="registration">
+    <div id="registration-page"><h3>Registration</h3>
+   <form id="myform">
+        <input type="text" id="firstname" placeholder="first name">
+        <input type="text" id="secondname" placeholder="second name"><br>
+        <select id="course" name="Department">
+            <option>Course</option>            
+            <option id="csc" value="CSC">CSC </option>
+            <option id="ift" value="IFT">IFT</option>
+            <option id="ifs" value="IFS">IFS</option>
+            <option id="cyb" value="CYB">CYB</option>
+            <option id="sen" value="SEN">SEN</option>
+        </select>
+        <br>
+        <select id="level" name="level"><option>Level</option>
+            <option value="200">200</option>
+        </select><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" class="radio" value="M" name="gender">
+        <label for="female">Female</label>
+        <input class="radio" type="radio" id="female" value="F" name="gender">
+        <h3>Payment Method</h3>
+        <select id="payment" name="payment"><option>Bank</option>
+            <option>Usd</option>
+        </select>
+         <select id="bank" name="bank"><option>UBA</option>
+            <option>OPAY</option>
+            <option>Access Bank</option>
+             <option>First Bank</option>
+             <option>GT</option>
+        </select>
+         <input type="text" id="account-number" placeholder="account number">
+    </form> 
+    <button onclick="home2()" id="submit">Submit</button>
+    </div>    
+</div>
+
+<div id="login">
+    <h3 id="commingsoon">Comming Soon<br><br><br><br><br><br><br><br><br><br><span id="details">Powered by Hosanna Isa Wakawa <br>CSC/24U/4494<br>Naub CSC 211 Web Programming<br>Assignment project (10marks)<br>Thank you 🙏😊<br></span> Mr Luwani Ishaya</h3>
+</div>
+
+    
+</body>
+</html>
